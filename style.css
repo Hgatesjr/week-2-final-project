@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 * {
   padding: 0;
   margin: 0;
@@ -179,7 +178,7 @@ h2 {
 
 .feature__block {
   display: flex;
-  width: calc(100% / 3);
+  max-width: 400px;
   align-items: flex-start;
   padding: 32px 24px;
 }
@@ -263,6 +262,16 @@ h3 {
 
 /*steps*/
 
+.steps__row--wrapper {
+     display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
+}
+
 .steps__header {
   margin: 24px 0;
 }
@@ -312,7 +321,7 @@ h3 {
 /*values*/
 
 .values__row--wrapper {
-    display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -418,11 +427,16 @@ br {
 }
 
 .pricing__list {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 24px;
 
+ 
   flex-wrap: wrap;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 12px;
 }
 
 .pricing__box--one {
@@ -442,7 +456,11 @@ br {
 }
 .pricing__box--two {
   color: white;
-  background-color: rgb(93, 93, 255);
+  background: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
   border: 2px solid rgba(70, 52, 189, 0.13);
   padding: 24px;
   margin: 8px 0;
