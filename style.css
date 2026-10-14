@@ -263,7 +263,7 @@ h3 {
 /*steps*/
 
 .steps__row--wrapper {
-     display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -427,10 +427,8 @@ br {
 }
 
 .pricing__list {
-
- 
   flex-wrap: wrap;
-   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -545,7 +543,7 @@ br {
 /*Testimonials*/
 
 .testimonials__wrapper {
-   display: flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 90%;
@@ -815,6 +813,8 @@ h5 {
   .pricing__list {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
   }
 
   .pricing__box--one,
@@ -832,18 +832,35 @@ h5 {
     display: flex;
   }
 
+  .individual {
+    flex-direction: column;
+  }
+
+  .testimonials__direction {
+    margin-top: 20px;
+  }
+
+  .testimonial__img--wrapper {
+    margin-top: 20px;
+  }
+
   .blue__box {
     width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .blue__box--h1 {
+    width: 250px;
     font-size: 22px;
     margin-right: 32px;
+    margin-bottom: 20px;
+    margin-left: 20px;
   }
 
   .blue__box--buttons {
     display: flex;
-    flex-direction: column;
   }
 
   .get__started {
@@ -852,15 +869,27 @@ h5 {
 
   .footer__wrapper {
     padding: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .footer__categories {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    width: 20%;
+  }
+
+  .footer__base {
+    padding: 0 24px 48px;
   }
 
   .footer__copywrite {
     font-size: 16px;
+  }
+
+  .footer__btn {
+    font-size: 12px;
   }
 
   .row {
@@ -877,5 +906,9 @@ h5 {
 
   .pricing__desc {
     margin: 5%;
+  }
+
+  .footer__social--links {
+    display: flex;
   }
 }
