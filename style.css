@@ -17,6 +17,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 12px;
+  margin: 20px;
 }
 
 .nav__row--wrapper {
@@ -102,7 +103,7 @@ h2 {
 }
 
 .container {
-  padding: 96px 0;
+  padding: 25px 0;
 }
 
 .header__list {
@@ -121,7 +122,7 @@ h2 {
 
 .partners__img--actual {
   width: 100%;
-  padding-right: 128px;
+ 
   margin-top: 16px;
   opacity: 0.5;
 }
@@ -382,7 +383,6 @@ h3 {
 .gamble {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
 }
 
 .values__btn {
@@ -823,6 +823,10 @@ h5 {
     width: 60%;
   }
 
+  .pricing__para {
+    width: 70%;
+  }
+
   .steps__img {
     width: 70%;
     margin-bottom: 10%;
@@ -911,4 +915,26 @@ h5 {
   .footer__social--links {
     display: flex;
   }
+
+  .values__para {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  .values__font {
+    font-size: 12px;
+  }
+
+  .values__imgs {
+    width: 15%;
+  }
+
+  .gamble {
+    width: 150%;
+    align-items: center;
+    flex-direction: column;
+  }
 }
+
+
+
