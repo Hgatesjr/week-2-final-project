@@ -947,7 +947,7 @@ h5 {
   }
 
   .header__list h1 {
-    font-size: 26px;
+    font-size: 24px;
   }
 
   h1 {
@@ -956,5 +956,14 @@ h5 {
 
   p {
     font-size: 16px;
+  }
+
+  #features,
+  #quality {
+    width: 90%;
+  }
+
+  .pricing__para {
+    width: 90%;
   }
 }
